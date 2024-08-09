@@ -159,6 +159,7 @@ header{
     justify-content: center;
     text-align: center;
     z-index: 1;
+    padding: .3em;
 }
 .carousel_caption .heading_1{
     font-size: 3rem;
@@ -176,4 +177,16 @@ header{
     .carousel{
         height: 80vh;
     }
+    .carousel_caption .heading_1{
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 1.2em;
+        margin-bottom: .2em;
+    }
+    .carousel_caption .heading_2{
+        font-size: 1.3rem;
+        color: var(--gray);
+        margin-bottom: .9em;
+    }
+    
 }
