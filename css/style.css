@@ -335,7 +335,6 @@ header{
     display: grid;
     grid-template-columns: repeat(400px, 1fr);
     gap: 1.5em;
-    padding: 0 1.7em;
 }
 .causes_card .card{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
