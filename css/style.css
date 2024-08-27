@@ -95,7 +95,8 @@ i{
     padding: 0 1.7em;
 }
 .causes_heading .causes_title,
-.services_heading .services_title{
+.services_heading .services_title,
+.donate_heading .donate_title{
     text-align: center;
 }
 
@@ -108,7 +109,8 @@ i{
 
 .about_caption small,
 .causes_heading small,
-.services_heading small{
+.services_heading small,
+.donate_heading small{
     font-weight: 200;
     color: var(--primary);
     background-color: #ff6f0f34;
@@ -214,7 +216,7 @@ header{
 
 
 /* carousel  */
-.carousel{
+#carousel{
     background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
     height: 100vh;
@@ -222,7 +224,7 @@ header{
     color: var(--light);
 }
 
-.carousel .carousel_caption{
+#carousel .carousel_caption{
     top: 0;
     left: 0;
     right: 0;
@@ -248,7 +250,7 @@ header{
 }
 
 @media (max-width: 1000px){
-    .carousel{
+    #carousel{
         height: 80vh;
     }
     .carousel_caption .heading_1{
@@ -266,7 +268,7 @@ header{
 }
 
 /* about  */
-.about{
+#about{
     display: grid;
     grid-template-columns: repeat(400px, 1fr);
 }
@@ -314,7 +316,7 @@ header{
 }
 
 @media (min-width: 930px){
-    .about{
+    #about{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 80px;
@@ -366,7 +368,6 @@ header{
     font-size: 1.1em;
     margin-bottom: 1.3em;
 }
-
 
 .causes_progress{
     display: flex;
@@ -435,7 +436,7 @@ header{
     opacity: 1;
 }
 @media (min-width: 990px){
-    .causes .causes_card{
+    #causes .causes_card{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         gap: 1.5em;
@@ -444,7 +445,7 @@ header{
     }
 }
 @media (min-width: 1000px){
-    .causes .causes_card{
+    #causes .causes_card{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 1.5em;
@@ -475,4 +476,157 @@ header{
 }
 
 /* services  */
+.services_card{
+    display: grid;
+    grid-template-columns: repeat(400px, 1fr);
+    gap: 1.5em; 
+}
+.services_card .card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1.9rem;
+    text-align: center;
+}
+.services_card img{
+    margin-bottom: .9em;
+}
+.services_card h4{
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: .5em;
+}
+.services_card p{
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 1.3em;
+}
+@media (min-width: 990px){
+    #services .services_card{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 1.5em;
+        padding: 0 10%;
+        
+    }
+}
+@media (min-width: 1000px){
+    #services .services_card{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5em;
+        padding: 0 10%;
+        
+    }
+}
 
+/* donate  */
+#donate{
+    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/carousel-2.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: var(--light);
+    padding: 6rem 1.3rem;
+}
+#donate .container{
+    display: grid;
+    grid-template-columns: repeat(400px, 1fr);
+    row-gap: 5em; 
+}
+.container .donate_heading,
+.container .donate_title,
+.container h1,
+.container p{
+    text-align: start;
+}
+.container .donate_title small{
+    background-color: var(--secondary);
+    font-size: 1.1em;
+}
+.container h1{
+    font-size: 2.5em;
+    margin-bottom: 5rem;
+}
+.container p{
+    color: var(--gray);
+    font-size: 1.1rem;
+}
+#donate form{
+    background-color: var(--light);
+    padding: 2rem;
+}
+#donate form .form-control{
+    padding: 1.3rem 1rem;
+    width: 100%;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    margin-bottom: 1.5rem;
+    transition: all 0.5s ease-in-out;
+}
+#donate form .form-control:focus{
+    border: 2px solid var(--primary);
+    transition: ease-in-out;
+}
+#donate form .form-control[type="text"]{
+    font-size: 1rem;
+}
+
+.donate-amount {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+.donate-label {
+    flex: 1;
+    padding: 1.2rem 0;
+    text-align: center;
+    cursor: pointer;
+    color: var(--dark);
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+.donate-label:first-child {
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+.donate-label:last-child {
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+.donate-label:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.btn-check:checked + .donate-label {
+    color: var(--primary);
+    border-color: var(--primary);
+    background-color: var(--light);
+}
+
+
+.donate_btn{
+    padding: 1.1em 2.5em;
+    font-weight: 500;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    border-radius: 6px;
+    border: 1px solid var(--primary);
+    cursor: pointer;
+}
+@media (min-width: 990px){
+    #donate .container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 1.5em;
+        padding: 0 10%;        
+    }
+}
+@media (min-width: 1000px){
+    #donate .container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5em;
+        padding: 0 10%;        
+    }
+}
