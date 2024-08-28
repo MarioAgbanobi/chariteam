@@ -263,14 +263,9 @@ header{
     }
     .carousel_caption .heading_1{
         font-size: 2.2rem;
-        font-weight: 700;
-        line-height: 1.2em;
-        margin-bottom: .2em;
     }
     .carousel_caption .heading_2{
         font-size: 1.3rem;
-        color: var(--gray);
-        margin-bottom: .9em;
     }
     
 }
@@ -549,10 +544,10 @@ header{
     grid-template-columns: repeat(400px, 1fr);
     row-gap: 5em; 
 }
-.container .donate_heading,
-.container .donate_title,
-.container h1,
-.container p{
+#donate .container .donate_heading,
+#donate .container .donate_title,
+#donate .container h1,
+#donate .container p{
     text-align: start;
 }
 .container .donate_title small{
@@ -702,7 +697,7 @@ header{
     opacity: 0;
     transition: .5s;
 }
-.team_card .card_body:hover .team_social{
+.team_card .card:hover .team_social{
     opacity: 1;
 }
 .team_card .team_social a{
