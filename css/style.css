@@ -310,7 +310,8 @@ header{
 
 .about_team_progress{
     margin: 1em 0;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    line-height: 1.5;
 }
 .about_buttons{
     display: flex;
