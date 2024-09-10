@@ -925,6 +925,14 @@ header{
     font-size: 1.1rem;
     border-top: 1px solid rgba(256, 256, 256, .1);
 }
+
+#footer .copyright a {
+    margin: 0;
+}
+
+#footer .copyright a:hover {
+    color: var(--primary);
+}
 #footer .brand{
     text-align: center;
     margin-bottom: 1rem;
@@ -937,15 +945,6 @@ header{
 #footer .brand a,
 #footer .owner a{
     color: var(--light);
-}
-
-#footer .copyright a {
-    color: var(--secondary);
-    margin: 0;
-}
-
-#footer .copyright a:hover {
-    color: var(--primary);
 }
 
 
