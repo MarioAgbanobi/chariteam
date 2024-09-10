@@ -758,7 +758,7 @@ header{
     object-fit: contain; 
 }
 #testimonial .testimonial_body {
-    width: 400px;
+    width: 100%;
     margin: auto;
     border-radius: .6rem;
     padding: 1.2rem;
