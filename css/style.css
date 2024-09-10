@@ -921,7 +921,6 @@ header{
 }
 
 #footer .copyright {
-    color: var(--gray);
     padding: 25px 0;
     font-size: 1.1rem;
     border-top: 1px solid rgba(256, 256, 256, .1);
@@ -929,9 +928,11 @@ header{
 #footer .brand{
     text-align: center;
     margin-bottom: 1rem;
+    color: var(--gray);
 }
 #footer .owner{
     text-align: center;
+    color: var(--gray);
 }
 #footer .brand a,
 #footer .owner a{
