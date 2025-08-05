@@ -1,398 +1,467 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>ChariTeam</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
-        <link href="img/favicon.ico" rel="icon">
-    
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@400;500;600;700&display=swap">
+  <head>
+    <meta charset="utf-8" />
+    <title>ChariTeam</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    <link href="img/favicon.ico" rel="icon" />
 
-        <!-- Icon Font Stylesheet -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    
-        <!-- Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    
-<body>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@400;500;600;700&display=swap"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
     <!-- spinner start  -->
     <!-- <div class="container spinner"></div> -->
     <!-- spinner end  -->
 
     <!-- navbar start -->
     <header class="container">
-        <div class="overlay"></div>
-        
-        <div class="header_top">
-            <div class="section_1">
-                <div class="street">
-                    <i class="fa fa-map-marker-alt me-2"></i>
-                    <small>123 Street, Lagos, Nigeria</small>
-                </div>
-                <div class="mail">
-                    <i class="fa fa-envelope me-2"></i>
-                    <small>info@example.com</small> 
-                </div>
-            </div>
-            <div class="section_2">
-                <small>Follow us:</small>
-                <ul class="nav_list">
-                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="header_bottom">
-            <h2>
-                Chari<span class="brand">Team</span>
-            </h2>
-            
-            <i class="fa fa-bars header_toggle"></i>
-            
-            <ul class="nav_list">
-                <li><a href="." class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#causes">Causes</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#testimonial">Testimonial</a></li>
-                <li>
-                <button class="btn btn_header">
-                Donate now<i class="fa fa-arrow-right"></i> 
-                </button>
-                </li>
-            </ul>
+      <div class="overlay"></div>
 
+      <div class="header_top">
+        <div class="section_1">
+          <div class="street">
+            <i class="fa fa-map-marker-alt me-2"></i>
+            <small>123 Street, Lagos, Nigeria</small>
+          </div>
+          <div class="mail">
+            <i class="fa fa-envelope me-2"></i>
+            <small>info@example.com</small>
+          </div>
         </div>
+        <div class="section_2">
+          <small>Follow us:</small>
+          <ul class="nav_list">
+            <li>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <h2>Chari<span class="brand">Team</span></h2>
+
+        <i class="fa fa-bars header_toggle"></i>
+
+        <ul class="nav_list">
+          <li><a href="." class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#causes">Causes</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#testimonial">Testimonial</a></li>
+          <li>
+            <button class="btn btn_header">
+              Donate now<i class="fa fa-arrow-right"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
     </header>
     <!-- navbar end  -->
 
     <main>
-        
-        <!-- carousel start -->
-        <div class="container" id="carousel">
-            <div class="carousel_caption">
-                <div class="container">
-                    <h1 class="heading_1">Let's Save More Lifes With Our Helping Hand</h1>
-                    <h2 class="heading_2">knowing that every small step towards kindness can lead to profound change.</h2>
-                    <button class="btn btn_1">
-                        learn more
-                        <i class="fa fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
+      <!-- carousel start -->
+      <div class="container" id="carousel">
+        <div class="carousel_caption">
+          <div class="container">
+            <h1 class="heading_1">
+              Let's Save More Lifes With Our Helping Hand
+            </h1>
+            <h2 class="heading_2">
+              knowing that every small step towards kindness can lead to
+              profound change.
+            </h2>
+            <button class="btn btn_1">
+              learn more
+              <i class="fa fa-arrow-right"></i>
+            </button>
+          </div>
         </div>
-        <!-- carousel end -->
+      </div>
+      <!-- carousel end -->
 
-        <!-- about us start -->
-        <div class="container_page" id="about">
-            <div class="about_image">
-                <img src="./img/about-1.jpg" class="img_1" alt="about">
-                <img src="./img/about-2.jpg" class="img_2" alt="about">
-            </div>
-            <div class="about_caption">
-                <small>About Us</small>
-                <h1>We Help People In Need Around The World</h1>
-                <blockquote class="about_founder">
-                    <p class="about_founder_quote">
-                        Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit clita duo justo erat amet  
-                    </p>
-                    <span class="about_founder_name">Stanley
-                        Agbanobi, Founder</span>
-                </blockquote>
-                <div class="about_team_progress">
-                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                </div>
-
-                <div class="about_buttons">
-                    <button class="btn btn_1">
-                        Learn more<i class="fa fa-arrow-right"></i> 
-                    </button>
-                    <button class="btn btn_2">
-                        Contact Us<i class="fa fa-arrow-right"></i> 
-                    </button>
-                </div>
-            </div>
+      <!-- about us start -->
+      <div class="container_page" id="about">
+        <div class="about_image">
+          <img src="./img/about-1.jpg" class="img_1" alt="about" />
+          <img src="./img/about-2.jpg" class="img_2" alt="about" />
         </div>
-        <!-- about us end -->
+        <div class="about_caption">
+          <small>About Us</small>
+          <h1>We Help People In Need Around The World</h1>
+          <blockquote class="about_founder">
+            <p class="about_founder_quote">
+              Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet
+              lorem sit clita duo justo erat amet
+            </p>
+            <span class="about_founder_name">Stanley Agbanobi, Founder</span>
+          </blockquote>
+          <div class="about_team_progress">
+            <p>
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+              lorem sit clita duo justo magna dolore erat amet
+            </p>
+          </div>
 
-        <!-- causes start -->
-         <div class="container_page" id="causes">
-            <div class="causes_heading">
-                <div class="causes_title">
-                    <small>Feature Causes</small>
-                </div>
-                <h1>Every Child Deserves The Opportunity To Learn</h1>
-            </div>
-            <div class="causes_card">
-                <div class="card">
-                    <div class="card_body">
-                        <div class="card_label">
-                            <small>Education</small>
-                        </div>
-                        <h3>Education For African Children</h3>
-                        <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                        <div class="causes_progress">
-                            <div class="analytics">
-                                <p class="goal">N10,000 <small>Goal</small></p>
-                                <p class="raised">N9,542 <small>Raised</small></p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress_bar"><span>70%</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card_img">
-                        <img src="./img/courses-1.jpg" class="img_1" alt="courses-1">
-                        <div class="causes_overlay">
-                            <button class="btn btn_2">
-                                Read more<i class="fa fa-arrow-right"></i> 
-                            </button> 
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card_body">
-                      <div class="card_label">
-                        <small>Pure Water</small>
-                      </div>
-                      <h3>Ensure Pure Drinking Water for a Healthier Tomorrow</h3>
-                      <p>Let's work together to make clean water accessible to all!</p>
-                      <div class="causes_progress">
-                        <div class="analytics">
-                          <p class="goal">N10,000 <small>Goal</small></p>
-                          <p class="raised">N9,542 <small>Raised</small></p>
-                        </div>
-                        <div class="progress">
-                          <div class="progress_bar" style="width: 70%"><span>70%</span></div>
-                        </div>
-                      </div>
-                    </div>
+          <div class="about_buttons">
+            <button class="btn btn_1">
+              Learn more<i class="fa fa-arrow-right"></i>
+            </button>
+            <button class="btn btn_2">
+              Contact Us<i class="fa fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- about us end -->
 
-                    <div class="card_img">
-                        <img src="./img/courses-2.jpg" class="img_1" alt="courses-1">
-                        <div class="causes_overlay">
-                            <button class="btn btn_2">
-                                Read more<i class="fa fa-arrow-right"></i> 
-                            </button> 
-                        </div>
-                    </div>
+      <!-- causes start -->
+      <div class="container_page" id="causes">
+        <div class="causes_heading">
+          <div class="causes_title">
+            <small>Feature Causes</small>
+          </div>
+          <h1>Every Child Deserves The Opportunity To Learn</h1>
+        </div>
+        <div class="causes_card">
+          <div class="card">
+            <div class="card_body">
+              <div class="card_label">
+                <small>Education</small>
+              </div>
+              <h3>Empowering African Children Through Education</h3>
+              <p>
+                Every child deserves access to quality education. Let's build a
+                brighter future together!
+              </p>
+              <div class="causes_progress">
+                <div class="analytics">
+                  <p class="goal">N10,000 <small>Goal</small></p>
+                  <p class="raised">N9,542 <small>Raised</small></p>
                 </div>
-                <div class="card">
-                    <div class="card_body">
-                        <div class="card_label">
-                            <small>Healthy Life</small>
-                        </div>
-                        <h3>Ensure Medical Treatment</h3>
-                        <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                        <div class="causes_progress">
-                            <div class="analytics">
-                                <p class="goal">N10,000 <small>Goal</small></p>
-                                <p class="raised">N9,542 <small>Raised</small></p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress_bar"><span>70%</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card_img">
-                        <img src="./img/courses-3.jpg" class="img_1" alt="courses-1">
-                        <div class="causes_overlay">
-                            <button class="btn btn_2">
-                                Read more<i class="fa fa-arrow-right"></i> 
-                            </button> 
-                        </div>
-                    </div>
+                <div class="progress">
+                  <div class="progress_bar" style="width: 70%">
+                    <span>70%</span>
+                  </div>
                 </div>
-            </div>
-         </div>
-        <!-- causes end -->
-
-        <!-- services start -->
-         <div class="container_page" id="services">
-            <div class="services_heading">
-                <div class="services_title">
-                    <small>What We Do</small>
-                </div>
-                <h1>Learn More What We Do And Get Involved</h1>
-            </div>
-            <div class="services_card">
-                <div class="card">
-                    <img src="./img/icon-1.png" alt="icon">
-                    <div class="card_body">
-                        <h4>Child Education</h4>
-                        <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-                        <button class="btn btn_2">
-                            Learn More<i class="fa fa-arrow-right"></i> 
-                        </button>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./img/icon-2.png" alt="icon">
-                    <div class="card_body">
-                        <h4>Child Education</h4>
-                        <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-                        <button class="btn btn_2">
-                            Learn More<i class="fa fa-arrow-right"></i> 
-                        </button>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./img/icon-3.png" alt="icon">
-                    <div class="card_body">
-                        <h4>Child Education</h4>
-                        <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-                        <button class="btn btn_2">
-                            Learn More<i class="fa fa-arrow-right"></i> 
-                        </button>
-                    </div>
-                </div>
+              </div>
             </div>
 
-         </div>
-        <!-- services end -->
-
-        <!-- donate start -->
-         <div class="container_page" id="donate">
-            <div class="container">
-                <div class="donate_heading">
-                    <div class="donate_title">
-                        <small>Donate now</small>
-                    </div>
-                    <h1>Thanks For The Results Achieved With You</h1>
-                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                </div>
-                <div class="donate_form">
-                    <form method="">
-                        <input type="text" class="form-control" placeholder="Your Name">
-                        <input type="text" class="form-control" placeholder="Your Email">
-                        <div class="donate-amount">
-                            <input type="radio" hidden class="btn-check" name="donation" id="donation1" checked>
-                            <label class="donate-label" for="donation1">$10</label>
-                            
-                            <input type="radio" hidden class="btn-check" name="donation" id="donation2">
-                            <label class="donate-label" for="donation2">$20</label>
-                            
-                            <input type="radio" hidden class="btn-check" name="donation" id="donation3">
-                            <label class="donate-label" for="donation3">$30</label>
-                        </div>
-                        
-                        
-                        <button class="btn btn_1 donate_btn">
-                            Donate Now<i class="fa fa-arrow-right"></i> 
-                        </button>
-                    </form>
-                </div>
+            <div class="card_img">
+              <img src="./img/courses-1.jpg" class="img_1" alt="courses-1" />
+              <div class="causes_overlay">
+                <button class="btn btn_2">
+                  Read more<i class="fa fa-arrow-right"></i>
+                </button>
+              </div>
             </div>
-         </div>
-        <!-- donate end -->
-
-        <!-- team start -->
-         <div class="container_page" id="team">
-            <div class="team_heading">
-                <div class="team_title">
-                    <small>Team Members</small>
+          </div>
+          <div class="card">
+            <div class="card_body">
+              <div class="card_label">
+                <small>Pure Water</small>
+              </div>
+              <h3>Ensure Pure Drinking Water for a Healthier Tomorrow</h3>
+              <p>Let's work together to make clean water accessible to all!</p>
+              <div class="causes_progress">
+                <div class="analytics">
+                  <p class="goal">N10,000 <small>Goal</small></p>
+                  <p class="raised">N9,542 <small>Raised</small></p>
                 </div>
-                <h1>Let's Meet With Our Ordinary Soldiers</h1>
-            </div>
-            <div class="team_card">
-                <div class="card">
-                    <div class="team_img">
-                        <img src="img/team-1.jpg" alt="team">
-                    </div>
-                    <div class="card_body">
-                        <h5>Full Name</h5>
-                        <p>Designation</p>
-                        <div class="team_social">
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
+                <div class="progress">
+                  <div class="progress_bar" style="width: 70%">
+                    <span>70%</span>
+                  </div>
                 </div>
-                <div class="card">
-                    <div class="team_img">
-                        <img src="img/team-2.jpg" alt="team">
-                    </div>
-                    <div class="card_body">
-                        <h5>Full Name</h5>
-                        <p>Designation</p>
-                        <div class="team_social">
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="team_img">
-                        <img src="img/team-3.jpg" alt="team">
-                    </div>
-                    <div class="card_body">
-                        <h5>Full Name</h5>
-                        <p>Designation</p>
-                        <div class="team_social">
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="team_img">
-                        <img src="img/team-4.jpg" alt="team">
-                    </div>
-                    <div class="card_body">
-                        <h5>Full Name</h5>
-                        <p>Designation</p>
-                        <div class="team_social">
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-         </div>
-        <!-- team end -->
-
-        <!-- testimonial start -->
-         <div class="container_page" id="testimonial">
-            <div class="testimonial_heading">
-                <div class="testimonial_title">
-                    <small>Testimonial</small>
-                </div>
-                <h1>Trusted By Thousands Of People And Nonprofits</h1>
+              </div>
             </div>
 
-            <div class="container testimonial_container">
-                <div class="testimonial_card">
-                    <div class="card">
-                        <div class="testimonial_img">
-                            <img src="img/testimonial-1.jpg" alt="testimonial image">
-                        </div>
-                        
-                        <div class="testimonial_body">
-                            <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                            <h5>Doner Name</h5>
-                            <span>Profession</span>
-                        </div>
-                    </div> 
+            <div class="card_img">
+              <img src="./img/courses-2.jpg" class="img_1" alt="courses-1" />
+              <div class="causes_overlay">
+                <button class="btn btn_2">
+                  Read more<i class="fa fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_body">
+              <div class="card_label">
+                <small>Healthy Life</small>
+              </div>
+              <h3>Ensure Medical Treatment</h3>
+              <p>
+                Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet
+                diam et eos
+              </p>
+              <div class="causes_progress">
+                <div class="analytics">
+                  <p class="goal">N10,000 <small>Goal</small></p>
+                  <p class="raised">N9,542 <small>Raised</small></p>
                 </div>
+                <div class="progress">
+                  <div class="progress_bar"><span>70%</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="card_img">
+              <img src="./img/courses-3.jpg" class="img_1" alt="courses-1" />
+              <div class="causes_overlay">
+                <button class="btn btn_2">
+                  Read more<i class="fa fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- causes end -->
 
+      <!-- services start -->
+      <div class="container_page" id="services">
+        <div class="services_heading">
+          <div class="services_title">
+            <small>What We Do</small>
+          </div>
+          <h1>Learn More What We Do And Get Involved</h1>
+        </div>
+        <div class="services_card">
+          <div class="card">
+            <img src="./img/icon-1.png" alt="icon" />
+            <div class="card_body">
+              <h4>Child Education</h4>
+              <p>
+                Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum
+                diam justo sed vero dolor duo.
+              </p>
+              <button class="btn btn_2">
+                Learn More<i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/icon-2.png" alt="icon" />
+            <div class="card_body">
+              <h4>Child Education</h4>
+              <p>
+                Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum
+                diam justo sed vero dolor duo.
+              </p>
+              <button class="btn btn_2">
+                Learn More<i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/icon-3.png" alt="icon" />
+            <div class="card_body">
+              <h4>Child Education</h4>
+              <p>
+                Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum
+                diam justo sed vero dolor duo.
+              </p>
+              <button class="btn btn_2">
+                Learn More<i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- services end -->
 
-                <!-- <div class="scroll_nav">
+      <!-- donate start -->
+      <div class="container_page" id="donate">
+        <div class="container">
+          <div class="donate_heading">
+            <div class="donate_title">
+              <small>Donate now</small>
+            </div>
+            <h1>Thanks For The Results Achieved With You</h1>
+            <p>
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+              lorem sit clita duo justo magna dolore erat amet
+            </p>
+          </div>
+          <div class="donate_form">
+            <form method="">
+              <input type="text" class="form-control" placeholder="Your Name" />
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Email"
+              />
+              <div class="donate-amount">
+                <input
+                  type="radio"
+                  hidden
+                  class="btn-check"
+                  name="donation"
+                  id="donation1"
+                  checked
+                />
+                <label class="donate-label" for="donation1">$10</label>
+
+                <input
+                  type="radio"
+                  hidden
+                  class="btn-check"
+                  name="donation"
+                  id="donation2"
+                />
+                <label class="donate-label" for="donation2">$20</label>
+
+                <input
+                  type="radio"
+                  hidden
+                  class="btn-check"
+                  name="donation"
+                  id="donation3"
+                />
+                <label class="donate-label" for="donation3">$30</label>
+              </div>
+
+              <button class="btn btn_1 donate_btn">
+                Donate Now<i class="fa fa-arrow-right"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- donate end -->
+
+      <!-- team start -->
+      <div class="container_page" id="team">
+        <div class="team_heading">
+          <div class="team_title">
+            <small>Team Members</small>
+          </div>
+          <h1>Let's Meet With Our Ordinary Soldiers</h1>
+        </div>
+        <div class="team_card">
+          <div class="card">
+            <div class="team_img">
+              <img src="img/team-1.jpg" alt="team" />
+            </div>
+            <div class="card_body">
+              <h5>Full Name</h5>
+              <p>Designation</p>
+              <div class="team_social">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="team_img">
+              <img src="img/team-2.jpg" alt="team" />
+            </div>
+            <div class="card_body">
+              <h5>Full Name</h5>
+              <p>Designation</p>
+              <div class="team_social">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="team_img">
+              <img src="img/team-3.jpg" alt="team" />
+            </div>
+            <div class="card_body">
+              <h5>Full Name</h5>
+              <p>Designation</p>
+              <div class="team_social">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="team_img">
+              <img src="img/team-4.jpg" alt="team" />
+            </div>
+            <div class="card_body">
+              <h5>Full Name</h5>
+              <p>Designation</p>
+              <div class="team_social">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- team end -->
+
+      <!-- testimonial start -->
+      <div class="container_page" id="testimonial">
+        <div class="testimonial_heading">
+          <div class="testimonial_title">
+            <small>Testimonial</small>
+          </div>
+          <h1>Trusted By Thousands Of People And Nonprofits</h1>
+        </div>
+
+        <div class="container testimonial_container">
+          <div class="testimonial_card">
+            <div class="card">
+              <div class="testimonial_img">
+                <img src="img/testimonial-1.jpg" alt="testimonial image" />
+              </div>
+
+              <div class="testimonial_body">
+                <p>
+                  Clita clita tempor justo dolor ipsum amet kasd amet duo justo
+                  duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
+                  clita erat magna elitr erat sit sit erat at rebum justo sea
+                  clita.
+                </p>
+                <h5>Doner Name</h5>
+                <span>Profession</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="scroll_nav">
                     <div class="scroll_prev">
                         <i class="fas fa-arrow-left"></i>
                     </div>
@@ -400,72 +469,73 @@
                         <i class="fas fa-arrow-right"></i>
                     </div>
                 </div> -->
+        </div>
+      </div>
+      <!-- testimonial end -->
+
+      <!-- footer start -->
+      <div class="container_page" id="footer">
+        <div class="container list">
+          <div class="row">
+            <div class="col">
+              <h1>Chari<span>Team</span></h1>
+              <p>
+                Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
+                erat ipsum et lorem et sit, sed stet lorem sit clita
+              </p>
+              <div class="socials">
+                <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn" href=""><i class="fab fa-youtube"></i></a>
+                <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
             </div>
-
-         </div>
-        <!-- testimonial end -->
-
-        <!-- footer start -->
-         <div class="container_page" id="footer">
-            <div class="container list">
-                <div class="row">
-                    <div class="col">
-                        <h1>Chari<span>Team</span></h1>
-                        <p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
-                        <div class="socials">
-                            <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="location">
-                            <h5>Address</h5>
-                            <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                            <p><i class="fa fa-envelope"></i>info@example.com</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="links">
-                            <h5>Quick Links</h5>
-                        
-                            <a class="link" href="">About Us</a>
-                            <a class="link" href="">Contact Us</a>
-                            <a class="link" href="">Our Services</a>
-                            <a class="link" href="">Terms & Condition</a>
-                            <a class="link" href="">Support</a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <h5>Newsletter</h5>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                        <div class="newsletter">
-                            <input type="text" placeholder="Your email">
-                            <button type="button" class="btn">SignUp</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="col">
+              <div class="location">
+                <h5>Address</h5>
+                <p>
+                  <i class="fa fa-map-marker-alt"></i>123 Street, New York, USA
+                </p>
+                <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
+                <p><i class="fa fa-envelope"></i>info@example.com</p>
+              </div>
             </div>
-            <div class="container copyright">
-                <div class="row">
-                    <div class="col brand">
-                        &copy; <a href="#">Chariteam</a>, All Right Reserved.
-                    </div>
-                    <div class="col owner">
-                        Designed By <a href="">Stanley Agbanobi</a>
-                    </div>
-                </div>
+            <div class="col">
+              <div class="links">
+                <h5>Quick Links</h5>
+
+                <a class="link" href="">About Us</a>
+                <a class="link" href="">Contact Us</a>
+                <a class="link" href="">Our Services</a>
+                <a class="link" href="">Terms & Condition</a>
+                <a class="link" href="">Support</a>
+              </div>
             </div>
-         </div>
-        <!-- footer end -->
-
-
-        
+            <div class="col">
+              <h5>Newsletter</h5>
+              <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+              <div class="newsletter">
+                <input type="text" placeholder="Your email" />
+                <button type="button" class="btn">SignUp</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container copyright">
+          <div class="row">
+            <div class="col brand">
+              &copy; <a href="#">Chariteam</a>, All Right Reserved.
+            </div>
+            <div class="col owner">
+              Designed By <a href="">Stanley Agbanobi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer end -->
     </main>
-    
+
     <!-- javscript  -->
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
